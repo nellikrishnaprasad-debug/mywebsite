@@ -48,10 +48,20 @@ nav a:hover{
 .hero{
     max-width:1000px;
     margin:30px auto;
-    padding:50px 20px;
+    padding:60px 20px;
     text-align:center;
-    background:linear-gradient(135deg,#f8fbff,#e8f1ff);
     border-radius:20px;
+
+    background: linear-gradient(-45deg,
+        #0d6efd,
+        #4facfe,
+        #00c6ff,
+        #6a11cb);
+
+    background-size:400% 400%;
+    animation:gradientBG 10s ease infinite;
+
+    color:white;
 }
 
 .hero img{
@@ -166,6 +176,8 @@ footer{
 
     .hero h2{
         font-size:28px;
+        color:white;
+}
     }
 
     .hero img{
@@ -180,4 +192,19 @@ footer{
     .card{
         width:100%;
     }
+}
+@keyframes gradientBG{
+
+    0%{
+        background-position:0% 50%;
+    }
+
+    50%{
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
+
 }
