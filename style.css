@@ -132,10 +132,27 @@ footer{
     font-weight:bold;
     margin:40px 0 30px;
 }
+.services-section{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.services-title{
+    font-size:42px;
+    margin-bottom:30px;
+}
 
 .services{
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
+    flex-wrap:wrap;
     gap:20px;
+}
+
+.card{
+    width:320px;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
