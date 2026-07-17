@@ -111,8 +111,9 @@ footer{
 }
 .tagline{
     text-align: center;
-    color: #eaf4ff;
+    color: white;
     font-size: 18px;
-    font-style: italic;
-    margin-top: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    opacity: 0.9;
 }
