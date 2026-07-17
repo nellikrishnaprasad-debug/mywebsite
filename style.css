@@ -110,10 +110,9 @@ footer{
     margin-bottom:10px;
 }
 .tagline{
-    width:100%;
-    text-align:center;
-    font-size:18px;
-    font-weight:bold;
-    color:#555;
-    margin:25px auto;
+    text-align: center;
+    color: #eaf4ff;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 18px;
 }
