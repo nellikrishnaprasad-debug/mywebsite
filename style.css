@@ -84,12 +84,6 @@ footer{
     padding:20px;
     margin-top:40px;
 }
-.services{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
-}
 
 .card{
     background:white;
@@ -133,8 +127,15 @@ footer{
     font-size:40px;
 }
 .services-title{
-    text-align: center;
-    font-size: 42px;
-    font-weight: bold;
-    margin: 40px 0 30px;
+    text-align:center;
+    font-size:42px;
+    font-weight:bold;
+    margin:40px 0 30px;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
 }
