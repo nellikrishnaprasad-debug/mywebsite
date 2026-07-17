@@ -117,3 +117,19 @@ footer{
     margin-top: 20px;
     opacity: 0.9;
 }
+.hero{
+    background: linear-gradient(135deg,#f8fbff,#e8f1ff);
+    border-radius:20px;
+    margin:30px auto;
+}
+
+.hero img:hover{
+    transform:scale(1.08);
+    transition:0.3s;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:40px;
+}
