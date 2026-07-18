@@ -528,3 +528,14 @@ width:95%;
 }
 
 }
+body.dark{
+    background:#121212;
+    color:#ffffff;
+}
+
+body.dark .card,
+body.dark .about,
+body.dark .contact-section{
+    background:#1f1f1f;
+    color:#ffffff;
+}
