@@ -283,3 +283,27 @@ footer{
 .contact-form button:hover{
     background:#f2f2f2;
 }
+.contact-section{
+    box-shadow:0 15px 40px rgba(0,0,0,0.25);
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border:2px solid #ffd43b;
+    box-shadow:0 0 10px rgba(255,212,59,.6);
+}
+.contact-form button{
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    transform:translateY(-3px);
+}@media(max-width:768px){
+    .contact-section{
+        width:95%;
+        padding:25px;
+    }
+
+    .contact-section h2{
+        font-size:36px;
+    }
+}
