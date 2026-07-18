@@ -24,15 +24,17 @@
 <h2>Contact Me</h2>
 <p>Feel free to contact me anytime.</p>
 
-<form class="contact-form">
+<form action="https://api.web3forms.com/submit" method="POST">
 
-<input type="text" placeholder="Your Name">
+    <input type="hidden" name="access_key" value="3190f296-b0df-4212-bf6d-596adf51e3d0">
 
-<input type="email" placeholder="Your Email">
+    <input type="text" name="name" placeholder="Your Name" required>
 
-<textarea placeholder="Your Message"></textarea>
+    <input type="email" name="email" placeholder="Your Email" required>
 
-<button type="submit">Send Message</button>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
 
 </form>
 
