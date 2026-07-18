@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
     padding:0;
@@ -29,14 +33,17 @@ nav{
 }
 
 nav a{
-    color:#fff;
+    color:white;
     text-decoration:none;
     margin:0 15px;
     font-weight:bold;
+    transition:0.3s;
 }
 
 nav a:hover{
     color:#ffd43b;
+    border-bottom:2px solid white;
+    padding-bottom:5px;
 }
 
 .tagline{
@@ -95,17 +102,18 @@ nav a:hover{
     flex-wrap:wrap;
 }
 
-.hero-buttons button{
+button{
     background:#0d6efd;
-    color:#fff;
+    color:white;
     border:none;
-    padding:12px 25px;
+    padding:12px 22px;
     border-radius:30px;
-    font-size:16px;
     cursor:pointer;
+    transition:0.3s;
 }
 
-.hero-buttons button:hover{
+button:hover{
+    transform:scale(1.08);
     background:#084298;
 }
 
@@ -130,16 +138,17 @@ nav a:hover{
 }
 
 .card{
-    width:320px;
     background:#fff;
+    width:320px;
     padding:25px;
     border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
 }
 
 .card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-10px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.25);
 }
 
 .card h3{
