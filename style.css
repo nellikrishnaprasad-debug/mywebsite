@@ -414,3 +414,117 @@ button:active{
     border-radius:30px;
     font-weight:bold;
 }
+/* ==========================
+   PREMIUM DESIGN
+========================== */
+
+body{
+    background:#f5f7fa;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.hero{
+    box-shadow:0 15px 40px rgba(0,0,0,.20);
+}
+
+.card{
+    transition:all .35s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+button{
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+footer{
+    font-size:16px;
+    letter-spacing:.5px;
+}
+
+/* Floating WhatsApp */
+
+.whatsapp-float{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    z-index:999;
+}
+
+/* Scroll Animation */
+
+.fade{
+    opacity:0;
+    transform:translateY(40px);
+    animation:fadeUp .8s forwards;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header h1{
+font-size:30px;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.services{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:95%;
+}
+
+.about{
+width:95%;
+padding:25px;
+}
+
+.contact-section{
+width:95%;
+}
+
+}
