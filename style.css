@@ -255,13 +255,6 @@ footer{
 .contact-section p{
     margin-bottom:30px;
 }
-
-.contact-form{
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-}
-
 .contact-form input,
 .contact-form textarea{
     width:100%;
@@ -339,10 +332,12 @@ button:active{
     transform: rotate(5deg) scale(1.05);
 }
 .contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
     max-width:500px;
     margin:0 auto;
 }
-
 .contact-form input,
 .contact-form textarea{
     width:100%;
